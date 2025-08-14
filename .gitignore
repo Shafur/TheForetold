@@ -12,6 +12,17 @@
 /[Uu]ser[Ss]ettings/
 *.log
 
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Mm]emoryCaptures/
+sysinfo.txt
+.vs/
+UserSettings/
+
+
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
 *.blend1.meta
@@ -55,6 +66,26 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.log
+
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -72,6 +103,34 @@ mono_crash.*
 *.unitypackage
 *.unitypackage.meta
 *.app
+
+
+*.apk
+*.aab
+*.keystore
+
+
+*.log
+*.stacktrace
+
+
+.DS_Store
+Thumbs.db
+
+
+!Assets/
+!Assets/**/*.unity
+!Assets/**/*.prefab
+!Assets/**/*.mat
+!Assets/**/*.asset
+!Assets/**/*.png
+!Assets/**/*.jpg
+!Assets/**/*.cs
+!Assets/**/*.shader
+!Assets/**/*.anim
+!Assets/**/*.controller
+!Assets/**/*.meta
+
 
 # Crashlytics generated file
 crashlytics-build.properties
