@@ -132,12 +132,12 @@ GameObject:
   - component: {fileID: 138337813}
   - component: {fileID: 138337812}
   m_Layer: 5
-  m_Name: PurchaseMenu
+  m_Name: npcMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &138337811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1348,6 +1348,11 @@ Transform:
   - {fileID: 1490232660}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1108569194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6032795998504832742, guid: 9cbf505d2da45624f893a025cffd858a, type: 3}
+  m_PrefabInstance: {fileID: 4660297986205197983}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1394347998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2303,6 +2308,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8677424042489690365, guid: 9cbf505d2da45624f893a025cffd858a, type: 3}
   m_PrefabInstance: {fileID: 4660297986205197983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1924706600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108569194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67763102ec737c244832b1c7aebd645c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcMenu: {fileID: 138337810}
 --- !u!1 &2015647991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,7 +2568,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8677424042489690365, guid: 9cbf505d2da45624f893a025cffd858a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 138337811}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6032795998504832742, guid: 9cbf505d2da45624f893a025cffd858a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1924706600}
   m_SourcePrefab: {fileID: 100100000, guid: 9cbf505d2da45624f893a025cffd858a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
